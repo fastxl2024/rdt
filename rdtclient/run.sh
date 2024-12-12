@@ -7,11 +7,11 @@ TZ=$(bashio::config 'TZ')
 DATA_PATH=$(bashio::config 'data_path')
 DOWNLOADS_PATH=$(bashio::config 'downloads_path')
 
-# Update environment variables
+# Export environment variables
 export PUID PGID TZ
 
 # Ensure directories exist
 mkdir -p "$DATA_PATH" "$DOWNLOADS_PATH"
 
-# Start the container
+# Start the main process
 exec /usr/bin/rdtclient
