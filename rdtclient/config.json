@@ -1,6 +1,6 @@
 {
   "name": "RDTClient",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "rdtclient",
   "description": "Real Debrid Torrent Client addon for Home Assistant.",
   "arch": ["aarch64", "amd64", "armv7"],
