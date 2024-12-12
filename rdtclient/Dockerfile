@@ -2,7 +2,7 @@
 FROM rogerfar/rdtclient:latest as rdtclient
 
 # Stage 2: Build on Home Assistant base
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:12.2.8
+ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base:7.6.2
 FROM ${BUILD_FROM}
 
 # Set environment variables
