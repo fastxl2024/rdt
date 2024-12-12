@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "rdtclient",
   "description": "Real Debrid Torrent Client addon for Home Assistant.",
-  "arch": ["amd64", "armv7", "arm64"],
+  "arch": ["aarch64", "amd64", "armv7"],
   "startup": "services",
   "ports": {
     "6500/tcp": 6500
